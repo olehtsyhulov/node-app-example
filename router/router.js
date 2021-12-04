@@ -20,12 +20,12 @@ const router = async ({ req, res, body }) => {
 
     default:
       res.statusCode = 404;
-      res.end(JSON.stringify({ error: 'Route Not Found' }));
+      return res.end(JSON.stringify({ error: 'Route Not Found' }));
   }
 
   if (error) {
     res.statusCode = error.status;
-    res.end(JSON.stringify(error.data));
+    return res.end(JSON.stringify({ error }));
   }
   res.statusCode = result.status;
   res.end(JSON.stringify(result.data));
