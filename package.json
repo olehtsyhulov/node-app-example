@@ -15,9 +15,8 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
-    "@hapi/joi": "^17.1.1",
     "joi": "^17.5.0",
     "pg": "^8.7.1",
-    "query-string": "^7.0.1"
+    "url": "^0.11.0"
   }
 }
