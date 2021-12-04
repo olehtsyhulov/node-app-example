@@ -1,0 +1,23 @@
+{
+  "name": "untitled4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-mocha": "^5.3.0",
+    "eslint-plugin-node": "^11.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "joi": "^17.5.0",
+    "pg": "^8.7.1",
+    "query-string": "^7.0.1"
+  }
+}
